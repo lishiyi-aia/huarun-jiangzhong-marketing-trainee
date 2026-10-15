@@ -262,7 +262,6 @@ canvas {
 }
 /* 入场动画放内层：其 fill:both 只锁内层 opacity，不影响外层滚动 opacity */
 .about-intro {
-  position: relative;
   animation: fadeDown 1.8s ease both;
 }
 
@@ -1689,24 +1688,3 @@ canvas {
 
 .wk-card-cover:focus-visible { outline: 2px solid #ffd9b3; outline-offset: 4px; }
 .wk-card-cover:hover { border-color: #ffd9b3; }
-
-/* Application destination on the copied portfolio. */
-.about-target {
-  display: inline-block;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  width: max-content;
-  max-width: min(700px, 90vw);
-  padding: 9px 16px;
-  margin: 0 auto 14px;
-  border: 1px solid rgba(255,255,255,.24);
-  border-radius: 8px;
-  background: rgba(8,11,18,.72);
-  color: #fff;
-  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: clamp(12px, 1.15vw, 15px);
-  line-height: 1.65;
-  letter-spacing: .025em;
-}
